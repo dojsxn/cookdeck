@@ -1,0 +1,135 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #f2f2f2;
+}
+
+.home{
+    height: 40vh;
+    background-image: url("../images/homecover.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#hometitle{
+    color:white;
+    font-size: 5.5em;
+    text-shadow: 3px 3px #60C5C2;
+    letter-spacing: 5px;
+    transition: all 300ms;
+}
+
+.intro{
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#title{
+    font-size: 3.0em;
+    color: #67BD55;
+    margin-bottom: 15px;
+}
+
+#about{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-size: 1.5em;
+    width: 40vw;
+}
+
+.benefit{
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #67BD55;
+}
+
+#title2{
+    font-size: 3.0em;
+    color: white;
+    margin-bottom: 15px;
+}
+
+#about2{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-size: 1.5em;
+    width: 40vw;
+    padding-bottom: 20px;
+}
+
+.benefit2{
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #60C5C2;
+}
+
+#title3{
+    font-size: 3.0em;
+    color: white;
+    margin-bottom: 15px;
+}
+
+#about3{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-size: 1.5em;
+    width: 40vw;
+    padding-bottom: 20px;
+}
+
+.button{
+    background-color: #67BD55;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    margin: 25px 4px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    background-color: #2A973E;
+    color: white;
+}
+
+#cook{
+    transition: all 300ms;
+}
+
+#cook:hover{
+    transform: scale(0.6);
+}
+
+#food{
+    transition: all 300ms;
+}
+
+#food:hover{
+    transform: scale(0.6);
+}
+
+
+#hometitle:hover{
+    transform: scale(1.5);
+}

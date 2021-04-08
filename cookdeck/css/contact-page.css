@@ -1,0 +1,156 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #f2f2f2;
+}
+
+.contact{
+    height: 40vh;
+    background-image: url("../images/recipecover.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#contacttitle{
+    color:white;
+    font-size: 5.0em;
+    text-shadow: 3px 3px #368783;
+    letter-spacing: 5px;
+    transition: all 300ms;
+}
+
+h1{
+    padding: 12px 20px;
+    margin: 8px 0px;
+}
+
+p{
+    font-size: 1.2em;
+    font-weight: bold;
+    color:#67BD55;
+    margin:0px;
+    padding:0px;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #60C5C2;
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: 'Poppins';
+    padding: 14px 20px;
+    margin: 8px 0;
+    margin-top: 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #368783;
+    transition-duration: 0.4s;
+}
+
+.form{
+    width:auto;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+::placeholder {
+    font-size: 1.2em;
+    font-family: 'Poppins';
+}
+
+#contacttitle:hover{
+    transform: scale(1.5);
+}
+
+.message{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#message{
+    font-size: 1.5em;
+    color: #60C5C2;
+}
+
+#link{
+    color: #67BD55;
+    font-size: 1.5em;
+    transition: all 300ms;
+}
+
+#link:hover{
+    transform: scale(1.5);
+}
+
+.explore{
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #67BD55;
+    margin-top: 25px;
+}
+
+#exploretitle{
+    color:white;
+    font-size: 2.0em;
+    margin: 8px;
+}
+
+.button{
+    color: white;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    transition: all 300ms;
+}
+.button:hover{
+    background-color: #60C5C2;
+    transform: scale(1.2);
+}
